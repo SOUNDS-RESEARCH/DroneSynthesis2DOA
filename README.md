@@ -100,9 +100,7 @@ In addition to standard features, `input_feature` can also be:
 - **`GCC_PHAT_beta_mask`**  
   Combines both enhancements for improved performance.
   
-Evaluate on real-world drone recordings. MicArrayDataReal30s is a real dataset provided by Fraunhofer IDMT (preprocessed).
-[https://zenodo.org/records/17525811]. 
-Please put it at exps/args.exp and run:
+Evaluate on real-world drone recordings. MicArrayDataReal30s is a real dataset provided by Fraunhofer IDMT (preprocessed).You can download here [https://zenodo.org/records/17525811]. Please put it at exps/args.exp and run:
 ``` bash
 python neural_doa/neural_main.py \
   --exp exp1 \
